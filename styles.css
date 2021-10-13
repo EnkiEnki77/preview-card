@@ -8,7 +8,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
 }
 
 .card{
@@ -18,6 +19,7 @@ body{
     border-radius: 10px;
     display: flex;
     overflow: hidden;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .sedans{
@@ -25,6 +27,7 @@ body{
     width: 33%;
     height: 100%;
     flex-grow: 1;
+    padding: 50px;
 }
 
 .suvs{
@@ -32,6 +35,7 @@ body{
     width: 33%;
     height: 100%;
     flex-grow: 1;
+    padding: 50px;
 }
 
 .luxury{
@@ -39,5 +43,33 @@ body{
     width: 33%;
     height: 100%;
     flex-grow: 1;
+    padding: 50px;
 }
 
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 30px 0;
+    color: hsl(0, 0%, 95%);
+    font-size: 3em;
+}
+
+
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-top: 80px;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: none;
+}
+
+p{
+    
+    line-height: 1.75em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sv{color:hsl(184, 100%, 22%);}
+.sed{color:hsl(31, 77%, 52%); ;}
+.lux{color:hsl(179, 100%, 13%); ;}
